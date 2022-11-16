@@ -1,0 +1,13 @@
+hostname: RancherOS
+rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 192.168.3.103/24
+        dhcp: false
+        gateway: 192.168.3.130
+        mtu: 1500
+  services_include:
+    open-vm-tools: true
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEArI+kfTQX+gqOJ/dEcSjl5jjqFaW8qWMVCVVdc3khLB6IGJycUMHwHTCl2Ab3/s4g3Jy/dibzhIaCHcNzXzlibJBdwLiptemYBv+v+biycmpwIrI6g0ooim+P4rYc5yTvfX5ieL0u0vICG3VSALq9RThx+e1bWXFIZunY/ZZyT4c=
